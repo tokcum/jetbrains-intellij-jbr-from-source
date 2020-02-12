@@ -15,8 +15,8 @@ arch=('x86_64')
 url='https://github.com/JetBrains/JetBrainsRuntime'
 license=('GPL2')
 depends=()
-makedepends=('git' 'make' 'sed')
-optdepends=()
+makedepends=('git' 'make' 'sed' 'unzip' 'zip')
+options=('!buildflags')
 
 # Source from github.com isn't defined here because its downloaded by prepare() more efficiently
 #source=("git+https://github.com/JetBrains/JetBrainsRuntime.git")
